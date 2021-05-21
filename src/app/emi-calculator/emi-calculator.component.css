@@ -1,0 +1,311 @@
+.container {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  background: white;
+  top: 200px;
+  left: 700px;
+  /* width: 520px;*/
+  /* height: 675px;  */
+  background: #ffffff;
+  opacity: 1;
+  position: absolute;
+}
+
+.example-margin {
+  margin: 10px;
+}
+
+.main {
+  margin: 0px;
+  width: 100%;
+  position: absolute;
+}
+
+.contentLeft {
+  /* padding: 40px 10px 40px 70px; */
+  width: 40%;
+  float: left;
+}
+
+.contentRight {
+  float: right;
+  padding: 45px;
+  width: 55%;
+}
+
+.circleImg {
+  position: absolute;
+  /* z-index: 1; */
+  top: -228px;
+}
+
+.circle {
+  /* transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0); */
+  width: 100%;
+}
+
+.circleImgLeft {
+  position: relative;
+  /* z-index: 1; */
+  left: -150px;
+  top: 140px;
+}
+
+.circleLeft {
+  width: 100%;
+  height: 400px;
+}
+
+.contentLeft>h2 {
+  color: #222;
+  font-size: 40px;
+  position: absolute;
+  top: 200px;
+  width: 340px;
+  left: 150px;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.line {
+  width: 210px;
+  height: 8px;
+  background-color: #222;
+  opacity: 0.7;
+  left: 150px;
+  position: absolute;
+  top: 300px;
+  border-radius: 10px;
+}
+
+select {
+  width: -webkit-fill-available;
+  margin: 0px 6px 0px 0px;
+  /* margin: 0px 0; */
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #e0dcdc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+
+select:focus {
+  outline: none;
+}
+
+.calculator {
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px #00000033;
+  /* z-index: 1; */
+  position: absolute;
+  padding: 0px 12px;
+  left: 100px;
+}
+
+.secondCalc {
+  width: 120px;
+  border: none;
+  left: 380px;
+  top: 60px;
+  border-radius: 0px 8px 8px 0px;
+  background: transparent linear-gradient(90deg, #9f5fc9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #00000033;
+  /* z-index: 1; */
+  position: absolute;
+  padding: 0px 12px;
+}
+
+.calculator>h3 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.income>h5 {
+  font-size: 10px;
+  margin: 0px;
+  display: inline-block;
+}
+
+input {
+  font-size: 16px;
+  border-width: 0 0 0.5px;
+  border-color: #e0dcdc;
+  margin: 0px 0px 30px 0px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.income {
+  padding: 0px 10px;
+}
+
+.income.spacingIn {
+  padding: 10px 10px;
+}
+
+.value {
+  font-size: 15px;
+}
+
+.content {
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.loan {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.amount {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.spacing {
+  padding: 10px 0px;
+}
+
+.money {
+  color: #663399;
+  height: 30px;
+  border-radius: 16px;
+  border: none;
+  font-size: 10px;
+  width: 100px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.money:hover {
+  color: #ffffff;
+  background-color: #663399;
+}
+
+.videoImg {
+  width: 420px;
+  height: 200px;
+  left: 110px;
+  top: 345px;
+  position: absolute;
+  /* z-index: 1; */
+}
+
+.dotsImg {
+  width: auto;
+  /* height: 178px; */
+  left: 300px;
+  top: 510px;
+  position: absolute;
+}
+
+.nextSection {
+  font-family: 'Open Sans', sans-serif;
+  top: 700px;
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  height: 730px;
+}
+
+.backgroundImg {
+  width: 100%;
+  position: absolute;
+}
+
+.cardsLeft {
+  width: 55%;
+  position: absolute;
+  top: 20px;
+  margin: 0px 0px 0px 60px;
+  height: 600px;
+}
+
+.cards {
+  display: inline-block;
+  width: 280px;
+  padding: 15px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  color: #222;
+  margin: 10px;
+  box-shadow: 0px 0px 30px #2321321F;
+}
+#alignTop{
+  top: 100px;
+    position: relative;
+} 
+.cards:hover{
+  background-color:  #c394e2;
+  color: #ffffff;
+}
+.cards > h3 {
+  font-size: 16px;
+  padding: 0px 2px;
+}
+.cards > p {
+  font-size: 13px;
+  padding: 0px 2px;
+  margin-top: -14px;
+}
+.cards > img {
+  width: 80px;
+  
+}
+.businessRight{
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+}
+.businessRight>h2 {
+  color: #222;
+  font-size: 40px;
+  position: relative;
+  top: 200px;
+  width: 400px;
+  right: 150px;
+  line-height: 49px; 
+}
+.businessRight>p {
+  color: #222;
+  font-size: 18px;
+  position: relative;
+  top: 240px;
+  width: 300px;
+  right: 150px;
+  line-height: 22px; 
+  color: gray;
+}
+.line2 {
+  width: 145px;
+    height: 8px;
+    background-color: #222;
+    opacity: 0.7;
+    position: relative;
+    top: 205px;
+    border-radius: 10px;
+    left: -145px;
+}
+
+.account{
+  color: #663399;
+    position: relative;
+    top: 270px;
+    width: 250px;
+    height: 40px;
+    border-radius: 24px;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #663399;
+    box-shadow: 0px 0px 20px #00000033;
+    right: 152px;
+}
+.account:hover{
+  color: #FFFFFF;
+  background-color: #663399;
+}

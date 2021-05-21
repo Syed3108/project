@@ -1,0 +1,108 @@
+<div class="main">
+  <div class="contentLeft">
+    <div class="circleImgLeft">
+      <img src="assets/blob-small.svg" class="circleLeft">
+    </div>
+    <h2>We Make it Super simple</h2>
+    <div class="line"></div>
+    <img src="assets/collect_img-video.png" class="videoImg">
+    <img src="assets/accounting_dots.svg" class="dotsImg">
+  </div>
+  <div class="contentRight">
+    <div class="circleImg">
+      <img src="assets/circle.png" class="circle">
+    </div>
+    <div class="container">
+      <div class="calculator">
+        <h3>Eligibility Calculator</h3>
+        <div class="income">
+          <h5>Monthly Income</h5>
+          <div class="value">&#8377; {{value}}</div>
+          <mat-slider color="primary" class="example-margin" [max]="max" [min]="min" [(ngModel)]="value">
+          </mat-slider>
+        </div>
+        <div class="income">
+          <h5>Monthly Expense</h5>
+          <div class="value">&#8377; {{valueExpense}}</div>
+          <mat-slider color="primary" class="example-margin" [max]="max" [min]="min" [(ngModel)]="valueExpense">
+          </mat-slider>
+        </div>
+        <div class="income">
+          <h5>Repayment Tenure</h5>
+          <br>
+          <select>
+            <option value="months">6 Months</option>
+            <option value="year">1 Year</option>
+            <option value="year">2 Year</option>
+          </select>
+        </div>
+        <div class="income spacingIn">
+          <h5>Do you have any existing loans</h5>
+          <mat-slide-toggle color="primary"></mat-slide-toggle>
+        </div>
+        <div class="income">
+          <h5>EMI of existing loan (optional)</h5>
+          <input placeholder="10000">
+        </div>
+      </div>
+      <div class="secondCalc">
+        <div class="content">
+          <div class="spacing">
+          <div class="loan">
+            Loan Amount
+          </div>
+          <div class="amount">
+            &#8377; 1,00,000
+          </div>
+          </div>
+          <div class="spacing">
+          <div class="loan">
+            Your EMI will be
+          </div>
+          <div class="amount">
+            &#8377; 8,000
+          </div>
+        </div>
+        <button class="money">GET MONEY</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="nextSection">
+  <img src="assets/sol_wave_bg.svg" class="backgroundImg">
+  <div class="cardsLeft">
+    <div class="cards">
+      <img src="assets/Get Paid Instantly.png">
+      <h3>Quick cash disbursement</h3>
+      <p>Get term loans that your business needs within 72 hours</p>
+  </div>
+  <div class="cards" id="alignTop">
+    <img src="assets/freelancer_feature_icon_6@1.5x.png">
+    <h3>Ace your business finances</h3>
+    <p>Manage banking, accounting and everything in between, on one platform</p>
+</div>
+<div class="cards" >
+  <img src="assets/Low interest rate.png">
+  <h3>Low interest rate</h3>
+  <p>Get term loans that your business needs within 72 hours</p>
+</div>
+<div class="cards" id="alignTop">
+  <img src="assets/Covid.png">
+  <h3>Loans to fight COVID-19</h3>
+  <p>Get term loans that your business needs within 72 hours</p>
+</div>
+<div class="cards">
+  <img src="assets/Secure Payments.png">
+  <h3>Zero paperwork</h3>
+  <p>Get term loans that your business needs within 72 hours</p>
+</div>
+</div>
+<div class="businessRight">
+  <h2>Boost your business with Open</h2>
+    <div class="line2"></div>
+    <p>Get your hand on term loan that's crafted for your business</p>
+    <button class="account">Get an Open Account</button>
+</div>
+</div>

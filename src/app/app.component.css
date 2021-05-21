@@ -1,0 +1,62 @@
+
+.logo{
+  width: auto;
+  height: 80px;
+}
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+  width: -webkit-fill-available;
+  padding: 10px 80px;
+  position: fixed;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 1  ;
+}
+
+.header a {
+  float: left;
+  color: #222222;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 24px;
+  
+}
+.header .options{
+	padding: 4px 10px;
+  margin: 0px 10px;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: #663399;
+}
+
+.header a.active {
+    color: #663399;
+    border: 1px solid #663399;
+    font-size: 16px;
+}
+.header a.active:hover{
+  color: #ffffff;
+  background-color: #663399;
+}
+
+.header-right {
+  float: right;
+  padding: 20px 0px;
+}
+.header .newBg{
+  background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 20px #00000033;
+border-radius: 24px;
+font-size: 16px;
+}
+.header .newBg:hover{
+  color: #FFFFFF;
+}
